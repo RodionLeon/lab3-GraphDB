@@ -200,5 +200,3 @@ FROM Person AS Person1
 WHERE MATCH(SHORTEST_PATH(Person1(-(r)->Person2){1,2}))
  AND Person1.id = 1;
 
-
-
